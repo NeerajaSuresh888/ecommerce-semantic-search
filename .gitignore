@@ -5,3 +5,7 @@ __pycache__/
 *.parquet
 *.csv
 .DS_Store
+*.npy
+qdrant_storage/
+test_install.py
+flipkart_fashion_products_dataset.json

@@ -24,8 +24,8 @@ elapsed =time.time()-start_time
 print(f"Generated embeddings for {len(df)} products in {elapsed:.2f} seconds")
 
 #save embeddings
-np.save("data/product_embeddings.npy", embeddings)
-print(f"Saved embeddings to data/product_embeddings.npy")
+np.save("data/embeddings.npy", embeddings)
+print(f"Saved embeddings to data/embeddings.npy")
 
 print("\n Sanity check - first product: ")
 print(f"Product: {df['embed_text'].iloc[0][:60]}...")
